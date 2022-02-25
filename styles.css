@@ -137,6 +137,11 @@ hr{
     position: relative;
     left: 300px;
 }
+.img3
+{
+    position: relative;
+    left: 300px;
+}
 .centered
 {
     text-align: center;
@@ -152,4 +157,72 @@ hr{
 .div4
 {
     padding-left: 10px;
+}
+@media (max-width:800px) 
+{
+    .mainhead
+    {
+        position: relative;
+        bottom: 300px;
+    }
+    #h2
+    {
+        padding: 0 20px 0 20px;
+    }
+    .listpad2
+    {
+        position: relative;
+        right: 50px;
+        margin-right: 0px;
+    }
+    .img1
+    {
+       width: 90%;
+       position: relative;
+       left: 1rem;
+    }
+    .vid
+    {
+        width: 90%;
+    }
+    .paragraphs2
+    {
+        position: relative;
+        left: 1rem;
+    }
+    .main
+    {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .list1
+    {
+        position: relative;
+        right: 2rem;
+    }
+    .img1
+    {
+        position: relative;
+        margin: 0px;
+        left: 0px;
+    }
+    .img2
+    {
+        position: relative;
+        top: 30px;
+        margin: 0%;
+        left: 0px;
+    }
+    .img3
+    {
+        width: 93%;
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+    .hr
+    {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
 }
